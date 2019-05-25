@@ -12,7 +12,6 @@ namespace Videowebapp.Controllers
     public class DemoController : Controller
     {
         // GET: api/Demo
-        //chnages made to dev brancg for repo1 
         [HttpGet]
         public IEnumerable<string> Get()
         {
