@@ -14,6 +14,8 @@ namespace Videowebapp.Controllers
         private TelemetryClient aiClient;
 
         //custom telemetry
+
+            //changes made in the repo1
         public HomeController(TelemetryClient telClient)
         {
               this. aiClient = telClient;
